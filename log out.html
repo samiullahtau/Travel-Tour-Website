@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    /* Main Container */
+    .logout-container {
+      text-align: center;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    /* Title */
+    .logout-container h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Message */
+    .logout-container p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    /* Buttons */
+    .logout-container .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      margin: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .btn-logout {
+      background: #ffa500;
+      color: white;
+      border: none;
+    }
+
+    .btn-logout:hover {
+      background: #f5c468;
+    }
+
+    .btn-cancel {
+      background: #f0f0f0;
+      color: #333;
+      border: 1px solid #ccc;
+    }
+
+    .btn-cancel:hover {
+      background: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="logout-container">
+    <h2>Are You Sure You Want to Logout?</h2>
+    <p>Logging out will end your current session. You can log back in anytime.</p>
+    <a href="login.html" class="btn btn-logout">Confirm Logout</a>
+    <a href="dashboard.html" class="btn btn-cancel">Cancel</a>
+  </div>
+</body>
+</html>

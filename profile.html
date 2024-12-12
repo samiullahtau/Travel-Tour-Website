@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Edit Page</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <aside class="sidebar">
+      <div class="profile-info">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h3>Tour Travel</h3>
+      </div>
+      <nav>
+        <ul>
+          <li class="active">Edit Profile</li>
+          <li><a class="privacy" href="privacy.html">Privacy Policy</a></li>
+          <li><a class="help" href="help.html">Help & Support</a></li>
+          <li><a class="Logout" href="log out.html">Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
+      <h2>Edit Profile</h2>
+      <form class="edit-form">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="designation">Designation</label>
+          <input type="text" id="designation" value=" ">
+        </div>
+        <div class="form-group">
+          <label for="bio">Bio</label>
+          <textarea id="bio"> </textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-update">Update</button>
+          <button type="button" class="btn-cancel">Cancel</button>
+        </div>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
